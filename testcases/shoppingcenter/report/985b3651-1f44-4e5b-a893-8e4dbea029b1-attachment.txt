@@ -1,0 +1,4 @@
+INFO     log:mysql_util.py:28 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+INFO     log:mysql_util.py:31 sql执行结果：{'id': 10005945}
+INFO     log:mysql_util.py:40 执行sql：select goods_id from trade_shoppingcart where user_id = 10005945
+INFO     log:mysql_util.py:43 sql执行结果：[{'goods_id': 3}, {'goods_id': 9}, {'goods_id': 12}, {'goods_id': 61}, {'goods_id': 71}, {'goods_id': 80}, {'goods_id': 87}]

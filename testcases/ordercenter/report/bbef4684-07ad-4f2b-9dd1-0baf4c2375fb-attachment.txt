@@ -1,0 +1,354 @@
+INFO     log:rest_client.py:34 接口请求的地址>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:35 接口请求的方法>>>POST
+INFO     log:rest_client.py:39 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+INFO     log:rest_client.py:16 接口返回内容为>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxNDExNTI5MiwiZW1haWwiOm51bGx9.9JDvDjp5nMRI4raakGKcYHqKerzWTZNsHYiRZyG2BfY"
+}
+INFO     log:rest_client.py:34 接口请求的地址>>>http://admin.5istudy.online/orders/8749/
+INFO     log:rest_client.py:35 接口请求的方法>>>GET
+INFO     log:rest_client.py:41 接口请求的params参数>>>
+{
+  "order_id": "8749",
+  "order_id2": "8749",
+  "time": "1713510464"
+}
+INFO     log:rest_client.py:16 接口返回内容为>>>
+{
+  "id": 8749,
+  "goods": [
+    {
+      "id": 7215,
+      "goods": {
+        "id": 84,
+        "category": {
+          "id": 74,
+          "sub_cat": [
+            {
+              "id": 75,
+              "sub_cat": [
+                {
+                  "id": 76,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "果冻",
+                  "code": "果冻",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 75
+                },
+                {
+                  "id": 77,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "枣类",
+                  "code": "枣类",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 75
+                },
+                {
+                  "id": 78,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "蜜饯",
+                  "code": "蜜饯",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 75
+                },
+                {
+                  "id": 79,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "肉类零食",
+                  "code": "肉类零食",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 75
+                },
+                {
+                  "id": 80,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "坚果炒货",
+                  "code": "坚果炒货",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 75
+                }
+              ],
+              "add_time": "2019-11-19 13:21:56",
+              "name": "休闲零食",
+              "code": "休闲零食",
+              "desc": "",
+              "category_type": 2,
+              "is_tab": false,
+              "parent_category": 74
+            },
+            {
+              "id": 81,
+              "sub_cat": [
+                {
+                  "id": 82,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "创意喜糖",
+                  "code": "创意喜糖",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 81
+                },
+                {
+                  "id": 83,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "口香糖",
+                  "code": "口香糖",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 81
+                },
+                {
+                  "id": 84,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "软糖",
+                  "code": "软糖",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 81
+                },
+                {
+                  "id": 85,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "棒棒糖",
+                  "code": "棒棒糖",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 81
+                }
+              ],
+              "add_time": "2019-11-19 13:21:56",
+              "name": "糖果",
+              "code": "糖果",
+              "desc": "",
+              "category_type": 2,
+              "is_tab": false,
+              "parent_category": 74
+            },
+            {
+              "id": 86,
+              "sub_cat": [
+                {
+                  "id": 87,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "夹心巧克力",
+                  "code": "夹心巧克力",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 86
+                },
+                {
+                  "id": 88,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "白巧克力",
+                  "code": "白巧克力",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 86
+                },
+                {
+                  "id": 89,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "松露巧克力",
+                  "code": "松露巧克力",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 86
+                },
+                {
+                  "id": 90,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "黑巧克力",
+                  "code": "黑巧克力",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 86
+                }
+              ],
+              "add_time": "2019-11-19 13:21:56",
+              "name": "巧克力",
+              "code": "巧克力",
+              "desc": "",
+              "category_type": 2,
+              "is_tab": false,
+              "parent_category": 74
+            },
+            {
+              "id": 91,
+              "sub_cat": [
+                {
+                  "id": 92,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "牛肉干",
+                  "code": "牛肉干",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 91
+                },
+                {
+                  "id": 93,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "猪肉脯",
+                  "code": "猪肉脯",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 91
+                },
+                {
+                  "id": 94,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "牛肉粒",
+                  "code": "牛肉粒",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 91
+                },
+                {
+                  "id": 95,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "猪肉干",
+                  "code": "猪肉干",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 91
+                }
+              ],
+              "add_time": "2019-11-19 13:21:56",
+              "name": "肉干肉脯/豆干",
+              "code": "肉干肉脯/豆干",
+              "desc": "",
+              "category_type": 2,
+              "is_tab": false,
+              "parent_category": 74
+            },
+            {
+              "id": 96,
+              "sub_cat": [
+                {
+                  "id": 97,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "鱿鱼足",
+                  "code": "鱿鱼足",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 96
+                },
+                {
+                  "id": 98,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "鱿鱼丝",
+                  "code": "鱿鱼丝",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 96
+                },
+                {
+                  "id": 99,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "墨鱼/乌贼",
+                  "code": "墨鱼/乌贼",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 96
+                },
+                {
+                  "id": 100,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "鱿鱼仔",
+                  "code": "鱿鱼仔",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 96
+                },
+                {
+                  "id": 101,
+                  "add_time": "2019-11-19 13:21:56",
+                  "name": "鱿鱼片",
+                  "code": "鱿鱼片",
+                  "desc": "",
+                  "category_type": 3,
+                  "is_tab": false,
+                  "parent_category": 96
+                }
+              ],
+              "add_time": "2019-11-19 13:21:56",
+              "name": "鱿鱼丝/鱼干",
+              "code": "鱿鱼丝/鱼干",
+              "desc": "",
+              "category_type": 2,
+              "is_tab": false,
+              "parent_category": 74
+            }
+          ],
+          "add_time": "2019-11-19 13:21:00",
+          "name": "休闲食品",
+          "code": "休闲食品",
+          "desc": "休闲食品",
+          "category_type": 1,
+          "is_tab": false,
+          "parent_category": null
+        },
+        "images": [],
+        "add_time": "2023-11-02 10:51:00",
+        "goods_sn": "888",
+        "name": "奶糖",
+        "click_num": 1,
+        "sold_num": 12,
+        "fav_num": 1,
+        "goods_num": 100,
+        "market_price": 0.5,
+        "shop_price": 0.01,
+        "goods_brief": "甜甜的奶糖",
+        "goods_desc": "糖",
+        "ship_free": true,
+        "goods_front_image": null,
+        "is_new": true,
+        "is_hot": true
+      },
+      "goods_num": 1,
+      "add_time": "2024-04-18T09:22:42.451088",
+      "order": 8749
+    }
+  ],
+  "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%22202404180922421000594585%22%2C%22out_trade_no%22%3A%22202404180922421000594585%22%2C%22total_amount%22%3A0.01%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2024-04-19+15%3A08%3A12&version=1.0&sign=McsE2hYvVBq5%2BGOBU9a1FAPRa9CgY6D%2FFLO6lNYLOoep2S%2Bx8OzO5n1PYNtwOr87hdnWHvSruBPn6x%2F0TKBSLo2ePNPpQ3fLBJhjHSCRuWJ57UdvD924tTJcoYP5r7P1K5Dy6kI5EGMyOFFovJFC2qk4wGTB3cwuVdocQtOqMNPvDtCfOzhdUYaMJuAj1puQOFBB6Ff%2FKTeN6Wo7pYKMvBc1nDbQ74T7BBXwYNYXGPmpv8srdspujOYf70olKy6KluAMs59J%2FYd53lj9UG1jm0aLUt6aefdO5YLury%2Frm7LyvlkEjKRpiPj63J8yh%2BCCW7Qb%2FHdJ6yfVZVe%2FGyvh5A%3D%3D",
+  "order_sn": "202404180922421000594585",
+  "trade_no": null,
+  "pay_status": "paying",
+  "post_script": "11111测试下个单~~",
+  "order_mount": 0.01,
+  "pay_time": null,
+  "address": "广东省广州市天河区车陂北街富力万科云启",
+  "signer_name": "江畔独步",
+  "singer_mobile": "17621947856",
+  "add_time": "2024-04-18T09:22:42.446832",
+  "user": 10005945
+}

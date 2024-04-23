@@ -1,0 +1,1336 @@
+[2024-04-12 09:10:54,748][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/banners/
+[2024-04-12 09:10:54,748][rest_client.py 41][INFO]: 接口请求的方法>>>GET
+[2024-04-12 09:10:54,864][response_util.py 12][INFO]: 接口返回参数>>>
+[
+  {
+    "id": 1824,
+    "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg",
+    "index": 1,
+    "add_time": "2022-10-27T08:33:00",
+    "goods": 15
+  },
+  {
+    "id": 1821,
+    "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg",
+    "index": 2,
+    "add_time": "2022-08-23T00:34:00",
+    "goods": 82
+  },
+  {
+    "id": 1820,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1822,
+    "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png",
+    "index": 3,
+    "add_time": "2022-09-22T10:53:00",
+    "goods": 83
+  },
+  {
+    "id": 1825,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1826,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1827,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 8888,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:39:48",
+    "goods": 10
+  },
+  {
+    "id": 8889,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:58:29",
+    "goods": 10
+  }
+]
+[2024-04-12 09:16:43,435][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/banners/
+[2024-04-12 09:16:43,436][rest_client.py 41][INFO]: 接口请求的方法>>>GET
+[2024-04-12 09:16:43,696][response_util.py 12][INFO]: 接口返回参数>>>
+[
+  {
+    "id": 1824,
+    "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg",
+    "index": 1,
+    "add_time": "2022-10-27T08:33:00",
+    "goods": 15
+  },
+  {
+    "id": 1821,
+    "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg",
+    "index": 2,
+    "add_time": "2022-08-23T00:34:00",
+    "goods": 82
+  },
+  {
+    "id": 1820,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1822,
+    "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png",
+    "index": 3,
+    "add_time": "2022-09-22T10:53:00",
+    "goods": 83
+  },
+  {
+    "id": 1825,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1826,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1827,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 8888,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:39:48",
+    "goods": 10
+  },
+  {
+    "id": 8889,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:58:29",
+    "goods": 10
+  }
+]
+[2024-04-12 09:16:43,696][mysql_util.py 27][INFO]: 执行sql：SELECT count(*) FROM goods_banner
+[2024-04-12 09:16:43,730][conftest.py 9][INFO]: sql执行结果：{'count(*)': 9}
+[2024-04-12 09:18:23,238][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/banners/
+[2024-04-12 09:18:23,239][rest_client.py 41][INFO]: 接口请求的方法>>>GET
+[2024-04-12 09:18:23,317][response_util.py 12][INFO]: 接口返回参数>>>
+[
+  {
+    "id": 1824,
+    "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg",
+    "index": 1,
+    "add_time": "2022-10-27T08:33:00",
+    "goods": 15
+  },
+  {
+    "id": 1821,
+    "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg",
+    "index": 2,
+    "add_time": "2022-08-23T00:34:00",
+    "goods": 82
+  },
+  {
+    "id": 1820,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1822,
+    "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png",
+    "index": 3,
+    "add_time": "2022-09-22T10:53:00",
+    "goods": 83
+  },
+  {
+    "id": 1825,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1826,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1827,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 8888,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:39:48",
+    "goods": 10
+  },
+  {
+    "id": 8889,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:58:29",
+    "goods": 10
+  }
+]
+[2024-04-12 09:18:23,317][mysql_util.py 27][INFO]: 执行sql：SELECT count(*) FROM goods_banner
+[2024-04-12 09:19:32,499][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/banners/
+[2024-04-12 09:19:32,499][rest_client.py 41][INFO]: 接口请求的方法>>>GET
+[2024-04-12 09:19:32,581][response_util.py 12][INFO]: 接口返回参数>>>
+[
+  {
+    "id": 1824,
+    "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg",
+    "index": 1,
+    "add_time": "2022-10-27T08:33:00",
+    "goods": 15
+  },
+  {
+    "id": 1821,
+    "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg",
+    "index": 2,
+    "add_time": "2022-08-23T00:34:00",
+    "goods": 82
+  },
+  {
+    "id": 1820,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1822,
+    "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png",
+    "index": 3,
+    "add_time": "2022-09-22T10:53:00",
+    "goods": 83
+  },
+  {
+    "id": 1825,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1826,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1827,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 8888,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:39:48",
+    "goods": 10
+  },
+  {
+    "id": 8889,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:58:29",
+    "goods": 10
+  }
+]
+[2024-04-12 09:19:32,581][mysql_util.py 27][INFO]: 执行sql：SELECT count(*) FROM goods_banner
+[2024-04-12 09:19:32,607][conftest.py 9][INFO]: sql执行结果：dict_keys(['count(*)'])
+[2024-04-12 09:20:34,934][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/banners/
+[2024-04-12 09:20:34,934][rest_client.py 41][INFO]: 接口请求的方法>>>GET
+[2024-04-12 09:20:35,013][response_util.py 12][INFO]: 接口返回参数>>>
+[
+  {
+    "id": 1824,
+    "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg",
+    "index": 1,
+    "add_time": "2022-10-27T08:33:00",
+    "goods": 15
+  },
+  {
+    "id": 1821,
+    "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg",
+    "index": 2,
+    "add_time": "2022-08-23T00:34:00",
+    "goods": 82
+  },
+  {
+    "id": 1820,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1822,
+    "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png",
+    "index": 3,
+    "add_time": "2022-09-22T10:53:00",
+    "goods": 83
+  },
+  {
+    "id": 1825,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1826,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1827,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 8888,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:39:48",
+    "goods": 10
+  },
+  {
+    "id": 8889,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:58:29",
+    "goods": 10
+  }
+]
+[2024-04-12 09:20:35,014][mysql_util.py 27][INFO]: 执行sql：SELECT count(*) FROM goods_banner
+[2024-04-12 09:24:00,620][conftest.py 10][INFO]: sql执行结果：{'count(*)': 9}
+[2024-04-12 09:24:28,502][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/banners/
+[2024-04-12 09:24:28,502][rest_client.py 41][INFO]: 接口请求的方法>>>GET
+[2024-04-12 09:24:28,630][response_util.py 12][INFO]: 接口返回参数>>>
+[
+  {
+    "id": 1824,
+    "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg",
+    "index": 1,
+    "add_time": "2022-10-27T08:33:00",
+    "goods": 15
+  },
+  {
+    "id": 1821,
+    "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg",
+    "index": 2,
+    "add_time": "2022-08-23T00:34:00",
+    "goods": 82
+  },
+  {
+    "id": 1820,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1822,
+    "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png",
+    "index": 3,
+    "add_time": "2022-09-22T10:53:00",
+    "goods": 83
+  },
+  {
+    "id": 1825,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1826,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1827,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 8888,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:39:48",
+    "goods": 10
+  },
+  {
+    "id": 8889,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:58:29",
+    "goods": 10
+  }
+]
+[2024-04-12 09:24:28,630][mysql_util.py 27][INFO]: 执行sql：SELECT count(*) FROM goods_banner
+[2024-04-12 09:24:28,654][conftest.py 10][INFO]: sql执行结果：{'count(*)': 9}
+[2024-04-12 09:30:53,233][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-12 09:30:53,233][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 09:30:53,233][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "13585597702"
+}
+[2024-04-12 09:30:53,558][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "mobile": "13585597702"
+}
+[2024-04-12 09:30:53,558][mysql_util.py 28][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '13585597702' ORDER BY users_verifycode.add_time DESC
+[2024-04-12 09:30:53,596][mysql_util.py 31][INFO]: sql执行结果：{'code': '9962'}
+[2024-04-12 09:30:53,600][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-12 09:30:53,600][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 09:30:53,601][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "13585597702"
+}
+[2024-04-12 09:30:53,672][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 09:30:53,673][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "mobile": [
+    "\u8ddd\u79bb\u4e0a\u6b21\u53d1\u9001\u672a\u8d85\u8fc71\u5206\u949f"
+  ]
+}
+[2024-04-12 09:30:53,674][mysql_util.py 28][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '13585597702' ORDER BY users_verifycode.add_time DESC
+[2024-04-12 09:30:53,703][mysql_util.py 31][INFO]: sql执行结果：{'code': '9962'}
+[2024-04-12 09:30:53,703][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2024-04-12 09:30:53,703][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 09:30:53,703][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "code": "9962",
+  "password": "123456",
+  "username": "13585597702"
+}
+[2024-04-12 09:30:53,866][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "username": "13585597702",
+  "mobile": "13585597702",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk2NCwidXNlcm5hbWUiOiIxMzU4NTU5NzcwMiIsImV4cCI6MTcxMzQ5MDI2OSwiZW1haWwiOm51bGx9.mnUwL3vSqENYu2uPGPe4OBN-DT3whzBhiKolvcgL1s0",
+  "name": "13585597702"
+}
+[2024-04-12 09:30:53,866][mysql_util.py 37][INFO]: 执行sql：SELECT users_userprofile.id FROM users_userprofile WHERE users_userprofile.mobile = '13585597702'
+[2024-04-12 09:30:53,900][mysql_util.py 40][INFO]: sql执行结果：[{'id': 10005964}]
+[2024-04-12 09:30:53,900][mysql_util.py 37][INFO]: 执行sql：DELETE FROM users_userprofile WHERE users_userprofile.mobile = '13585597702'
+[2024-04-12 09:30:53,951][mysql_util.py 40][INFO]: sql执行结果：[]
+[2024-04-12 09:30:53,955][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 09:30:53,956][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 09:30:53,956][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 09:30:54,103][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzQ5MDI2OSwiZW1haWwiOm51bGx9.7SCyDvOYOej5eBft4qRLgUqimr7ChIngdc4xnTZrwU0"
+}
+[2024-04-12 09:31:13,223][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/banners/
+[2024-04-12 09:31:13,223][rest_client.py 41][INFO]: 接口请求的方法>>>GET
+[2024-04-12 09:31:13,298][response_util.py 12][INFO]: 接口返回参数>>>
+[
+  {
+    "id": 1824,
+    "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg",
+    "index": 1,
+    "add_time": "2022-10-27T08:33:00",
+    "goods": 15
+  },
+  {
+    "id": 1821,
+    "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg",
+    "index": 2,
+    "add_time": "2022-08-23T00:34:00",
+    "goods": 82
+  },
+  {
+    "id": 1820,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1822,
+    "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png",
+    "index": 3,
+    "add_time": "2022-09-22T10:53:00",
+    "goods": 83
+  },
+  {
+    "id": 1825,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1826,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1827,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 8888,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:39:48",
+    "goods": 10
+  },
+  {
+    "id": 8889,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:58:29",
+    "goods": 10
+  }
+]
+[2024-04-12 09:31:13,299][mysql_util.py 28][INFO]: 执行sql：SELECT count(*) FROM goods_banner
+[2024-04-12 09:31:13,327][mysql_util.py 31][INFO]: sql执行结果：{'count(*)': 9}
+[2024-04-12 10:07:39,594][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:07:39,632][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:08:44,213][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:08:44,258][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:09:21,772][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:09:21,801][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:09:21,801][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:09:21,830][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:10:02,227][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:10:02,256][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:10:02,257][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:10:02,285][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:13:25,785][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:13:25,811][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:13:25,812][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:13:25,837][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:13:52,161][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:13:52,190][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:13:52,190][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:13:52,218][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:15:24,300][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:15:24,330][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:15:37,126][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:15:37,167][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:17:41,044][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:17:41,081][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:20:28,853][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 10:20:28,877][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 10:28:59,204][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 10:28:59,204][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 10:28:59,334][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 10:28:59,334][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "detail": "\u8eab\u4efd\u8ba4\u8bc1\u4fe1\u606f\u672a\u63d0\u4f9b\u3002"
+}
+[2024-04-12 10:28:59,375][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 10:28:59,375][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 10:28:59,449][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 10:28:59,450][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "detail": "\u8eab\u4efd\u8ba4\u8bc1\u4fe1\u606f\u672a\u63d0\u4f9b\u3002"
+}
+[2024-04-12 10:56:06,013][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 10:56:06,013][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 10:56:06,013][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 10:56:06,340][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzQ5NTM4MSwiZW1haWwiOm51bGx9.QftO0wuZi14u8kzSN9id-_-HWXBbUWH6y1xkfVa1xuI"
+}
+[2024-04-12 10:56:06,340][login.py 10][INFO]: <class 'core.ResultBase.ResultResponse'>
+[2024-04-12 10:59:13,789][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 10:59:13,789][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 10:59:13,789][rest_client.py 45][INFO]: 接口请求的json参数>>>
+"username"
+[2024-04-12 10:59:14,048][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 10:59:14,048][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "non_field_errors": [
+    "\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"
+  ]
+}
+[2024-04-12 10:59:14,148][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 10:59:14,149][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 10:59:14,149][rest_client.py 45][INFO]: 接口请求的json参数>>>
+"username"
+[2024-04-12 10:59:14,206][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 10:59:14,206][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "non_field_errors": [
+    "\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"
+  ]
+}
+[2024-04-12 10:59:14,225][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 10:59:14,225][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 10:59:14,225][rest_client.py 45][INFO]: 接口请求的json参数>>>
+"password"
+[2024-04-12 10:59:14,331][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 10:59:14,331][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "non_field_errors": [
+    "\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"
+  ]
+}
+[2024-04-12 10:59:14,349][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 10:59:14,350][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 10:59:14,350][rest_client.py 45][INFO]: 接口请求的json参数>>>
+"password"
+[2024-04-12 10:59:14,472][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 10:59:14,473][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "non_field_errors": [
+    "\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"
+  ]
+}
+[2024-04-12 11:02:56,699][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 11:02:56,699][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 11:02:56,699][rest_client.py 45][INFO]: 接口请求的json参数>>>
+"goods"
+[2024-04-12 11:02:56,776][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 11:02:56,776][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "detail": "\u8eab\u4efd\u8ba4\u8bc1\u4fe1\u606f\u672a\u63d0\u4f9b\u3002"
+}
+[2024-04-12 11:02:56,872][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 11:02:56,873][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 11:02:56,873][rest_client.py 45][INFO]: 接口请求的json参数>>>
+"nums"
+[2024-04-12 11:02:56,942][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 11:02:56,943][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "detail": "\u8eab\u4efd\u8ba4\u8bc1\u4fe1\u606f\u672a\u63d0\u4f9b\u3002"
+}
+[2024-04-12 11:05:37,138][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 11:05:37,138][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 11:05:37,139][rest_client.py 45][INFO]: 接口请求的json参数>>>
+"goods"
+[2024-04-12 11:05:37,288][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-12 11:05:37,289][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "detail": "\u8eab\u4efd\u8ba4\u8bc1\u4fe1\u606f\u672a\u63d0\u4f9b\u3002"
+}
+[2024-04-12 11:08:16,688][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 11:08:16,727][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 11:13:49,935][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 11:13:49,935][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 11:13:49,936][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 11:13:50,279][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzQ5NjQ0NSwiZW1haWwiOm51bGx9.eorTcPVM9bnlqZX6KnJATvYbR1MSlzPkrKNEbeH4-q8"
+}
+[2024-04-12 11:13:50,279][test_shopping.py 17][INFO]: 17621947777
+[2024-04-12 11:13:50,283][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 11:13:50,311][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 11:18:45,382][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 11:18:45,383][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 11:18:45,383][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 11:18:45,577][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzQ5Njc0MSwiZW1haWwiOm51bGx9.c7Pcvn1jyKl9NWR1Mfr-3kZTCSJIJKSLZixUnUtqVPE"
+}
+[2024-04-12 11:20:12,848][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 11:20:12,849][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 11:20:12,849][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 11:20:13,039][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzQ5NjgyOCwiZW1haWwiOm51bGx9.navSZKqpRPkFVzrGBJurZkym8gJsthoFgvP2rWnrtUk"
+}
+[2024-04-12 11:21:18,960][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 11:21:18,960][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 11:21:18,960][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 11:21:19,122][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzQ5Njg5NCwiZW1haWwiOm51bGx9.je_7nQCKs51jYwZLD2JbguGRotGF1YIBGjTYfaCCovg"
+}
+[2024-04-12 11:21:19,123][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 11:21:19,182][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 11:21:19,182][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 11:21:19,183][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 11:21:19,183][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "87",
+  "nums": "3"
+}
+[2024-04-12 11:21:19,266][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 3,
+  "goods": 87
+}
+[2024-04-12 11:38:19,770][mysql_util.py 28][INFO]: 执行sql：SELECT users_userprofile.id FROM users_userprofile WHERE users_userprofile.mobile = '17621947777'
+[2024-04-12 11:38:19,802][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 11:38:40,302][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 11:38:40,337][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 13:52:06,248][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 13:52:06,249][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 13:52:06,249][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 13:52:06,585][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNTk0MiwiZW1haWwiOm51bGx9.DBsDLPG4R45qdfzaZcUseSjR4kOz62jtoTTSjKufVkU"
+}
+[2024-04-12 13:52:06,587][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 13:52:06,632][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 13:53:20,837][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 13:53:20,837][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 13:53:20,837][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 13:53:21,193][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjAxNiwiZW1haWwiOm51bGx9.zQjk5T7WjSabMOL07wOm2gIa7FUBJUXS5_jziMZA7vM"
+}
+[2024-04-12 13:53:21,195][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 13:53:21,252][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 13:54:08,475][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 13:54:08,476][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 13:54:08,476][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 13:54:08,637][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjA2NCwiZW1haWwiOm51bGx9.3IYmicSzt2p5L_Bg9d8bNvc_i-FV9L6JgiiH3oINlD4"
+}
+[2024-04-12 13:54:08,640][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 13:54:08,679][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 13:55:30,520][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 13:55:30,520][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 13:55:30,520][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 13:55:30,674][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjE0NiwiZW1haWwiOm51bGx9.kLvZeRkmA32s9MHQ8MDqRx9vV-bd47xqcGfu3TlSHdU"
+}
+[2024-04-12 13:55:30,676][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 13:55:30,704][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 13:56:58,399][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 13:56:58,399][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 13:56:58,399][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 13:56:58,550][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjIzNCwiZW1haWwiOm51bGx9.gtwLGzYEgkVaP9GuweHvnvxRJ_Aul07ZAPYo6r17ew4"
+}
+[2024-04-12 13:56:58,552][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 13:56:58,586][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 13:57:38,752][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 13:57:38,752][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 13:57:38,752][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 13:57:38,901][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjI3NCwiZW1haWwiOm51bGx9.e55fsrRWrfPiWnERu_pIJh3rXQ8M2lF7z1L0C-fTJwQ"
+}
+[2024-04-12 13:57:38,902][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 13:57:38,929][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 13:58:56,633][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 13:58:56,666][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 13:58:56,666][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 87
+[2024-04-12 13:58:56,710][mysql_util.py 31][INFO]: sql执行结果：{'nums': 3}
+[2024-04-12 13:59:54,687][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 13:59:54,688][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 13:59:54,688][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 13:59:54,854][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjQxMCwiZW1haWwiOm51bGx9._roGP3A7C92aPYDNMdz03uANdi__qrbJagtu9rRrI1M"
+}
+[2024-04-12 13:59:54,858][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 13:59:54,902][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:00:52,556][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:00:52,557][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:00:52,557][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:00:52,812][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjQ2OCwiZW1haWwiOm51bGx9.MlJmfYjrASechYdNVF96OuXuD9DI5hndhRVda6kqo-w"
+}
+[2024-04-12 14:00:52,816][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:00:52,849][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:01:21,163][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:01:21,163][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:01:21,163][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:01:21,319][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjQ5NiwiZW1haWwiOm51bGx9.cPdwpb89W5ti_fA6oyN4n0EKdeziP9j6B-2u4QmstSA"
+}
+[2024-04-12 14:01:21,320][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:01:21,352][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:03:36,206][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:03:36,206][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:03:36,206][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:03:36,393][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjYzMSwiZW1haWwiOm51bGx9.uO_aT2xMefGezuAT1aV5tqOyo1OJXaAWlzWkkF9laws"
+}
+[2024-04-12 14:03:36,394][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:03:36,425][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:03:36,425][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:03:36,469][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:03:36,469][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 100010
+[2024-04-12 14:03:36,502][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:05:15,555][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:05:15,556][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:05:15,556][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:05:15,702][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjczMSwiZW1haWwiOm51bGx9.jrMYw9YcdV1jSsyjoeVuajmOMPYhjOf90_AzwwL9Fi8"
+}
+[2024-04-12 14:05:15,704][mysql_util.py 37][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:05:15,731][mysql_util.py 40][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:05:15,731][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:05:15,773][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:05:15,773][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 60
+[2024-04-12 14:05:15,800][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:08:39,609][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:08:39,609][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:08:39,609][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:08:39,767][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjkzNSwiZW1haWwiOm51bGx9.owVtonxz6_EtBV_hzws_9UW_KVpmjDTD8I0V3xNTptQ"
+}
+[2024-04-12 14:08:39,768][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:08:39,799][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:08:39,799][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:08:39,831][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:08:39,831][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 80
+[2024-04-12 14:08:39,858][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:08:39,858][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:08:39,858][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:08:39,858][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "80",
+  "nums": "2"
+}
+[2024-04-12 14:08:39,933][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 2,
+  "goods": 80
+}
+[2024-04-12 14:08:39,933][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:08:39,965][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:08:39,965][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 80
+[2024-04-12 14:08:39,990][mysql_util.py 31][INFO]: sql执行结果：{'nums': 2}
+[2024-04-12 14:09:04,870][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:09:04,870][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:09:04,870][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:09:05,021][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjk2MCwiZW1haWwiOm51bGx9.7YxSaaH8GcZdDz2Fc4f5TtS24QRz974D8QKm926YFJ0"
+}
+[2024-04-12 14:09:05,022][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:09:05,054][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:09:05,054][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:09:05,089][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:09:05,090][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 9
+[2024-04-12 14:09:05,122][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:09:05,122][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:09:05,122][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:09:05,122][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "9",
+  "nums": "2"
+}
+[2024-04-12 14:09:05,191][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 2,
+  "goods": 9
+}
+[2024-04-12 14:09:05,191][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:09:05,226][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:09:05,226][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 9
+[2024-04-12 14:09:05,258][mysql_util.py 31][INFO]: sql执行结果：{'nums': 2}
+[2024-04-12 14:09:37,542][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:09:37,542][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:09:37,543][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:09:37,696][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNjk5MywiZW1haWwiOm51bGx9.c0gMR-N1fKdDN_bl_5qiH8LKmy9-lPKlagpjrhC_iM8"
+}
+[2024-04-12 14:09:37,699][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:09:37,746][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:09:37,747][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:09:37,778][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:09:37,778][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 61
+[2024-04-12 14:09:37,813][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:09:37,813][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:09:37,813][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:09:37,813][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "61",
+  "nums": "2"
+}
+[2024-04-12 14:09:37,889][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 2,
+  "goods": 61
+}
+[2024-04-12 14:09:37,889][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:09:37,923][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:09:37,923][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 61
+[2024-04-12 14:09:37,953][mysql_util.py 31][INFO]: sql执行结果：{'nums': 2}
+[2024-04-12 14:10:12,291][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:10:12,292][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:10:12,292][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:10:12,455][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNzAyNywiZW1haWwiOm51bGx9.EJvjpzseDgl90iEtOx_fBWMBhnzmt-KSWEtGO7HvfTU"
+}
+[2024-04-12 14:10:12,457][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:10:12,485][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:10:12,486][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:10:12,518][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:10:12,518][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 12
+[2024-04-12 14:10:12,549][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:10:12,549][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:10:12,549][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:10:12,549][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "12",
+  "nums": "1"
+}
+[2024-04-12 14:10:12,620][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 1,
+  "goods": 12
+}
+[2024-04-12 14:10:12,621][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:10:12,665][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:10:12,665][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 12
+[2024-04-12 14:10:12,694][mysql_util.py 31][INFO]: sql执行结果：{'nums': 1}
+[2024-04-12 14:12:03,988][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:12:03,989][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:12:03,989][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:12:04,131][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNzEzOSwiZW1haWwiOm51bGx9.NFrHgvPLc2N6iLbjMGrFllOEi3gjqV6E3680wxZ2c-Y"
+}
+[2024-04-12 14:12:04,132][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:12:04,168][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:12:04,168][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:12:04,214][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:12:04,214][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 71
+[2024-04-12 14:12:04,244][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:12:04,244][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:12:04,244][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:12:04,244][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "71",
+  "nums": "15"
+}
+[2024-04-12 14:12:04,316][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 15,
+  "goods": 71
+}
+[2024-04-12 14:12:04,316][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:12:04,346][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:12:04,346][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 71
+[2024-04-12 14:12:04,372][mysql_util.py 31][INFO]: sql执行结果：{'nums': 15}
+[2024-04-12 14:32:19,728][mysql_util.py 40][INFO]: 执行sql：select goods_id from trade_shoppingcart where user_id = 17621947777
+[2024-04-12 14:32:19,792][mysql_util.py 43][INFO]: sql执行结果：()
+[2024-04-12 14:35:25,267][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:35:25,301][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:35:25,301][mysql_util.py 40][INFO]: 执行sql：select goods_id from trade_shoppingcart where user_id = 10005945
+[2024-04-12 14:35:25,335][mysql_util.py 43][INFO]: sql执行结果：[{'goods_id': 3}, {'goods_id': 9}, {'goods_id': 12}, {'goods_id': 61}, {'goods_id': 71}, {'goods_id': 80}, {'goods_id': 87}]
+[2024-04-12 14:35:57,666][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:35:57,709][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:35:57,709][mysql_util.py 40][INFO]: 执行sql：select goods_id from trade_shoppingcart where user_id = 10005945
+[2024-04-12 14:35:57,743][mysql_util.py 43][INFO]: sql执行结果：[{'goods_id': 3}, {'goods_id': 9}, {'goods_id': 12}, {'goods_id': 61}, {'goods_id': 71}, {'goods_id': 80}, {'goods_id': 87}]
+[2024-04-12 14:38:06,862][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:38:06,862][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:38:06,862][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:38:07,244][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwODcwMiwiZW1haWwiOm51bGx9.AnEkkdfbRo5p-uG3KY-c06w-ny1f1xGQUsQcze3Xw34"
+}
+[2024-04-12 14:38:07,247][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:38:07,281][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:38:07,281][mysql_util.py 40][INFO]: 执行sql：select goods_id from trade_shoppingcart where user_id = 10005945
+[2024-04-12 14:38:07,307][mysql_util.py 43][INFO]: sql执行结果：[{'goods_id': 3}, {'goods_id': 9}, {'goods_id': 12}, {'goods_id': 61}, {'goods_id': 71}, {'goods_id': 80}, {'goods_id': 87}]
+[2024-04-12 14:38:07,307][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:38:07,337][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:38:07,337][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 87
+[2024-04-12 14:38:07,366][mysql_util.py 31][INFO]: sql执行结果：{'nums': 3}
+[2024-04-12 14:38:07,366][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:38:07,366][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:38:07,366][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "87",
+  "nums": "18"
+}
+[2024-04-12 14:38:07,442][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 21,
+  "goods": 87
+}
+[2024-04-12 14:38:07,442][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:38:07,472][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:38:07,472][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 87
+[2024-04-12 14:38:07,498][mysql_util.py 31][INFO]: sql执行结果：{'nums': 21}
+[2024-04-12 14:49:57,840][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:49:57,840][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:49:57,840][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:49:58,193][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwOTQxMywiZW1haWwiOm51bGx9.lsPMvt8zQt_sy1xg6EmSQlXEsK45lxaAqzFqnT43UTA"
+}
+[2024-04-12 14:49:58,196][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:49:58,233][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:49:58,233][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:49:58,268][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:49:58,268][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 84
+[2024-04-12 14:49:58,303][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:49:58,303][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:49:58,303][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:49:58,303][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "84",
+  "nums": "9"
+}
+[2024-04-12 14:49:58,384][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 9,
+  "goods": 84
+}
+[2024-04-12 14:49:58,384][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:49:58,425][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:49:58,425][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 84
+[2024-04-12 14:49:58,463][mysql_util.py 31][INFO]: sql执行结果：{'nums': 9}
+[2024-04-12 14:51:00,857][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:51:00,858][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:51:00,858][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:51:01,014][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwOTQ3NiwiZW1haWwiOm51bGx9.DMQ0VncTfou19U97QlO2TDADQOiaTaAsTSUm9tkwi54"
+}
+[2024-04-12 14:51:01,017][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:51:01,057][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:51:01,057][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:51:01,094][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:51:01,094][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 22
+[2024-04-12 14:51:01,122][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:51:01,122][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:51:01,122][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:51:01,122][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "22",
+  "nums": "17"
+}
+[2024-04-12 14:51:01,196][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 17,
+  "goods": 22
+}
+[2024-04-12 14:51:01,197][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:51:01,231][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:51:01,232][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 22
+[2024-04-12 14:51:01,261][mysql_util.py 31][INFO]: sql执行结果：{'nums': 17}
+[2024-04-12 14:51:47,153][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:51:47,153][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:51:47,153][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:51:47,484][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwOTUyMywiZW1haWwiOm51bGx9.VNhypQpv6oMPz_gQmwXQxxAdH_e80fvlgGOtZDXRDTI"
+}
+[2024-04-12 14:51:47,486][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:51:47,514][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:51:47,514][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:51:47,545][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:51:47,545][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 87
+[2024-04-12 14:51:47,571][mysql_util.py 31][INFO]: sql执行结果：{'nums': 21}
+[2024-04-12 14:51:47,571][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:51:47,571][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:51:47,571][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "87",
+  "nums": "18"
+}
+[2024-04-12 14:51:47,649][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 39,
+  "goods": 87
+}
+[2024-04-12 14:51:47,649][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:51:47,693][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:51:47,693][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 87
+[2024-04-12 14:51:47,719][mysql_util.py 31][INFO]: sql执行结果：{'nums': 39}
+[2024-04-12 14:53:35,144][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:53:35,144][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:53:35,144][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:53:35,308][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwOTYzMCwiZW1haWwiOm51bGx9.FpUvX9bDsamxEqsyaxQekSsp2Y7VV-xNdserhJi4v6s"
+}
+[2024-04-12 14:53:35,310][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:53:35,345][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:53:35,346][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:53:35,388][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:53:35,388][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 15
+[2024-04-12 14:53:35,447][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:53:35,447][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:53:35,447][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:53:35,447][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "15",
+  "nums": "17"
+}
+[2024-04-12 14:53:35,577][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 17,
+  "goods": 15
+}
+[2024-04-12 14:53:35,577][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:53:35,615][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:53:35,615][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 15
+[2024-04-12 14:53:35,649][mysql_util.py 31][INFO]: sql执行结果：{'nums': 17}
+[2024-04-12 14:53:35,653][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:53:35,653][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:53:35,653][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:53:35,803][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwOTYzMSwiZW1haWwiOm51bGx9.lKHF7skxuzGKMet9O9c7axRpZlj3jprBwL4sACuwJvU"
+}
+[2024-04-12 14:53:35,806][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:53:35,844][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:53:35,844][mysql_util.py 40][INFO]: 执行sql：select goods_id from trade_shoppingcart where user_id = 10005945
+[2024-04-12 14:53:35,891][mysql_util.py 43][INFO]: sql执行结果：[{'goods_id': 3}, {'goods_id': 9}, {'goods_id': 12}, {'goods_id': 15}, {'goods_id': 22}, {'goods_id': 61}, {'goods_id': 71}, {'goods_id': 80}, {'goods_id': 84}, {'goods_id': 87}]
+[2024-04-12 14:53:35,891][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:53:35,930][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:53:35,930][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 9
+[2024-04-12 14:53:35,963][mysql_util.py 31][INFO]: sql执行结果：{'nums': 2}
+[2024-04-12 14:53:35,963][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:53:35,963][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:53:35,963][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "9",
+  "nums": "3"
+}
+[2024-04-12 14:53:36,040][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 5,
+  "goods": 9
+}
+[2024-04-12 14:53:36,040][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:53:36,088][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:53:36,088][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 9
+[2024-04-12 14:53:36,123][mysql_util.py 31][INFO]: sql执行结果：{'nums': 5}
+[2024-04-12 14:54:02,237][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:54:02,237][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:54:02,237][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:54:02,394][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwOTY1NywiZW1haWwiOm51bGx9.0PrBxVLmyKgks7PoE9tUQ7vq0BXewf6t_IIOSbT8y4c"
+}
+[2024-04-12 14:54:02,396][mysql_util.py 40][INFO]: 执行sql：SELECT id FROM goods_goods
+[2024-04-12 14:54:02,434][mysql_util.py 43][INFO]: sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+[2024-04-12 14:54:02,434][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:54:02,468][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:54:02,468][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 83
+[2024-04-12 14:54:02,510][mysql_util.py 31][INFO]: sql执行结果：None
+[2024-04-12 14:54:02,510][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:54:02,510][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:54:02,510][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "83",
+  "nums": "19"
+}
+[2024-04-12 14:54:02,579][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 19,
+  "goods": 83
+}
+[2024-04-12 14:54:02,579][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:54:02,619][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:54:02,619][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 83
+[2024-04-12 14:54:02,647][mysql_util.py 31][INFO]: sql执行结果：{'nums': 19}
+[2024-04-12 14:54:02,669][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-12 14:54:02,670][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:54:02,670][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-12 14:54:02,817][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwOTY1OCwiZW1haWwiOm51bGx9.qCGxRM58_PV-b7iamw_3p1Ki277dTeIMKtHFxRGH6bg"
+}
+[2024-04-12 14:54:02,819][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:54:02,861][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:54:02,861][mysql_util.py 40][INFO]: 执行sql：select goods_id from trade_shoppingcart where user_id = 10005945
+[2024-04-12 14:54:02,891][mysql_util.py 43][INFO]: sql执行结果：[{'goods_id': 3}, {'goods_id': 9}, {'goods_id': 12}, {'goods_id': 15}, {'goods_id': 22}, {'goods_id': 61}, {'goods_id': 71}, {'goods_id': 80}, {'goods_id': 83}, {'goods_id': 84}, {'goods_id': 87}]
+[2024-04-12 14:54:02,891][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:54:02,937][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:54:02,937][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 80
+[2024-04-12 14:54:02,966][mysql_util.py 31][INFO]: sql执行结果：{'nums': 2}
+[2024-04-12 14:54:02,966][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2024-04-12 14:54:02,966][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-12 14:54:02,966][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "goods": "80",
+  "nums": "15"
+}
+[2024-04-12 14:54:03,035][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "nums": 17,
+  "goods": 80
+}
+[2024-04-12 14:54:03,035][mysql_util.py 28][INFO]: 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+[2024-04-12 14:54:03,069][mysql_util.py 31][INFO]: sql执行结果：{'id': 10005945}
+[2024-04-12 14:54:03,069][mysql_util.py 28][INFO]: 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 80
+[2024-04-12 14:54:03,098][mysql_util.py 31][INFO]: sql执行结果：{'nums': 17}

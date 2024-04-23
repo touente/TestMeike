@@ -1,0 +1,478 @@
+[2024-04-11 10:01:52,704][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:01:52,704][rest_client.py 41][INFO]: 接口请求的方法>>>GET
+[2024-04-11 10:01:52,704][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17621947856
+}
+[2024-04-11 10:01:52,834][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 10:03:11,414][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:03:11,414][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:03:11,414][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17621947856
+}
+[2024-04-11 10:03:11,523][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:03:43,449][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:03:43,449][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:03:43,449][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17621947856
+}
+[2024-04-11 10:03:43,714][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 10:04:02,634][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:04:02,634][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:04:02,634][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17621947856
+}
+[2024-04-11 10:04:02,714][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 10:04:50,459][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:04:50,459][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:04:50,459][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17621947856
+}
+[2024-04-11 10:09:33,704][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:09:33,704][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:09:33,704][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17621947856
+}
+[2024-04-11 10:09:33,893][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:09:49,773][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:09:49,773][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:09:49,773][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": 17621947856
+}
+[2024-04-11 10:09:49,863][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 10:10:33,963][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:10:33,963][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:10:33,963][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:10:34,064][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:10:50,493][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:10:50,493][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:10:50,493][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:10:50,579][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 10:12:06,218][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:12:06,218][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:12:06,218][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:12:07,323][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:13:16,643][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:13:16,643][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:13:16,643][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:13:16,723][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:16:05,418][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:16:05,418][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:16:05,418][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:16:05,724][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:16:05,724][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:16:08,493][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:16:08,493][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:16:08,493][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:16:08,593][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 10:16:08,593][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "mobile": [
+    "\u8ddd\u79bb\u4e0a\u6b21\u53d1\u9001\u672a\u8d85\u8fc71\u5206\u949f"
+  ]
+}
+[2024-04-11 10:19:58,020][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:19:58,020][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:19:58,020][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:19:58,193][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:19:58,193][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:20:04,863][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 10:20:04,863][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 10:20:04,863][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 10:20:04,939][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 10:20:04,939][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "mobile": [
+    "\u8ddd\u79bb\u4e0a\u6b21\u53d1\u9001\u672a\u8d85\u8fc71\u5206\u949f"
+  ]
+}
+[2024-04-11 11:17:53,997][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = 17621947856 ORDER BY users_verifycode.add_time DESC
+[2024-04-11 11:19:06,061][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = 17621947856 ORDER BY users_verifycode.add_time DESC
+[2024-04-11 11:19:16,433][mysql_util.py 32][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = 17621947856 ORDER BY users_verifycode.add_time DESC
+[2024-04-11 11:19:24,593][mysql_util.py 32][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = 17621947856 ORDER BY users_verifycode.add_time DESC
+[2024-04-11 14:46:55,914][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 14:46:55,914][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 14:46:55,914][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 14:46:56,571][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 14:46:56,571][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 14:46:56,572][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '17621947856' ORDER BY users_verifycode.add_time DESC
+[2024-04-11 14:46:56,612][conftest.py 9][INFO]: sql执行结果：{'code': '1276'}
+[2024-04-11 14:48:00,163][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 14:48:00,163][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 14:48:00,163][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 14:48:00,479][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 14:48:00,479][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "mobile": [
+    "\u9a8c\u8bc1\u7801\u53d1\u9001\u8d85\u8fc7\u6bcf\u65e5\u9650\u5236"
+  ]
+}
+[2024-04-11 14:51:26,347][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 14:51:26,347][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 14:51:26,347][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 14:51:26,619][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 14:51:26,619][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "mobile": [
+    "\u9a8c\u8bc1\u7801\u53d1\u9001\u8d85\u8fc7\u6bcf\u65e5\u9650\u5236"
+  ]
+}
+[2024-04-11 14:52:38,717][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '17621947856' ORDER BY users_verifycode.add_time DESC
+[2024-04-11 14:52:38,815][conftest.py 9][INFO]: sql执行结果：{'code': '1276'}
+[2024-04-11 14:52:38,815][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2024-04-11 14:52:38,815][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 14:52:38,815][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "code": "{'code': '1276'}",
+  "password": "123456",
+  "username": "17621947856"
+}
+[2024-04-11 14:52:38,910][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 14:52:38,910][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "code": [
+    "\u9a8c\u8bc1\u7801\u683c\u5f0f\u9519\u8bef"
+  ]
+}
+[2024-04-11 14:54:08,386][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '17621947856' ORDER BY users_verifycode.add_time DESC
+[2024-04-11 14:54:08,432][conftest.py 9][INFO]: sql执行结果：{'code': '1276'}
+[2024-04-11 14:54:08,432][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2024-04-11 14:54:08,432][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 14:54:08,432][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "code": "1276",
+  "password": "123456",
+  "username": "17621947856"
+}
+[2024-04-11 14:54:08,521][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 14:54:08,521][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "code": [
+    "\u9a8c\u8bc1\u7801\u8fc7\u671f"
+  ]
+}
+[2024-04-11 14:58:00,848][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '17621947856' ORDER BY users_verifycode.add_time DESC
+[2024-04-11 14:58:00,888][conftest.py 9][INFO]: sql执行结果：{'code': '1276'}
+[2024-04-11 14:58:00,888][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2024-04-11 14:58:00,888][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 14:58:00,888][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "code": "1276",
+  "password": "123456",
+  "username": "17621947856"
+}
+[2024-04-11 14:58:00,966][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 15:00:48,405][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 15:00:48,405][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:00:48,405][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "17621947856"
+}
+[2024-04-11 15:00:48,691][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 15:00:48,691][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "mobile": [
+    "\u9a8c\u8bc1\u7801\u53d1\u9001\u8d85\u8fc7\u6bcf\u65e5\u9650\u5236"
+  ]
+}
+[2024-04-11 15:00:48,692][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '17621947856' ORDER BY users_verifycode.add_time DESC
+[2024-04-11 15:00:48,723][conftest.py 9][INFO]: sql执行结果：{'code': '1276'}
+[2024-04-11 15:00:48,723][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2024-04-11 15:00:48,723][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:00:48,723][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "code": "1276",
+  "password": "123456",
+  "username": "17621947856"
+}
+[2024-04-11 15:00:48,804][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 15:00:48,804][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "code": [
+    "\u9a8c\u8bc1\u7801\u8fc7\u671f"
+  ]
+}
+[2024-04-11 15:01:58,140][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '17621947856' ORDER BY users_verifycode.add_time DESC
+[2024-04-11 15:01:58,185][conftest.py 9][INFO]: sql执行结果：{'code': '1276'}
+[2024-04-11 15:01:58,185][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2024-04-11 15:01:58,185][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:01:58,185][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "code": "1276",
+  "password": "123456",
+  "username": "17621947856"
+}
+[2024-04-11 15:01:58,259][response_util.py 12][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 15:01:58,259][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "code": [
+    "\u9a8c\u8bc1\u7801\u8fc7\u671f"
+  ]
+}
+[2024-04-11 15:02:32,016][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 15:02:32,016][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:02:32,016][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "13585597702"
+}
+[2024-04-11 15:02:32,114][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "mobile": "13585597702"
+}
+[2024-04-11 15:02:32,114][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "mobile": "13585597702"
+}
+[2024-04-11 15:02:32,115][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '13585597702' ORDER BY users_verifycode.add_time DESC
+[2024-04-11 15:02:32,146][conftest.py 9][INFO]: sql执行结果：{'code': '1830'}
+[2024-04-11 15:02:32,146][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2024-04-11 15:02:32,146][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:02:32,146][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "code": "1830",
+  "password": "123456",
+  "username": "13585597702"
+}
+[2024-04-11 15:02:32,280][response_util.py 10][INFO]: 接口返回参数>>>
+{
+  "username": "13585597702",
+  "mobile": "13585597702",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NCwidXNlcm5hbWUiOiIxMzU4NTU5NzcwMiIsImV4cCI6MTcxMzQyMzc2NSwiZW1haWwiOm51bGx9.eAUnxj0E7LtJ6lceh9I7dWGOwYEgccRYPTRX0V2YpBU",
+  "name": "13585597702"
+}
+[2024-04-11 15:02:32,280][response_util.py 13][INFO]: 接口返回参数>>>
+{
+  "username": "13585597702",
+  "mobile": "13585597702",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NCwidXNlcm5hbWUiOiIxMzU4NTU5NzcwMiIsImV4cCI6MTcxMzQyMzc2NSwiZW1haWwiOm51bGx9.eAUnxj0E7LtJ6lceh9I7dWGOwYEgccRYPTRX0V2YpBU",
+  "name": "13585597702"
+}
+[2024-04-11 15:02:32,280][mysql_util.py 32][INFO]: 执行sql：SELECT users_userprofile.id FROM users_userprofile WHERE users_userprofile.mobile = '13585597702'
+[2024-04-11 15:02:32,313][conftest.py 15][INFO]: sql执行结果：[{'id': 10005944}]
+[2024-04-11 15:02:32,313][mysql_util.py 32][INFO]: 执行sql：DELETE FROM users_userprofile WHERE users_userprofile.mobile = '13585597702'
+[2024-04-11 15:18:51,148][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-11 15:18:51,149][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:19:41,169][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-11 15:19:41,170][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:21:41,754][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-11 15:21:41,755][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:22:56,528][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-11 15:22:56,529][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:23:38,267][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-11 15:23:38,267][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:23:38,267][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-11 15:23:38,441][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzQyNTAzMSwiZW1haWwiOm51bGx9.cV4lxVYaIVSh-3OnbVm70Y0zKHLiyi0cvPouuY3shMM"
+}
+[2024-04-11 15:26:03,903][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-11 15:26:03,903][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:26:03,903][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-11 15:26:04,077][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzQyNTE3NywiZW1haWwiOm51bGx9.Rfap5epMv9f_Fq_bcyLunD_VpubFdFuI5ndpW5v5PwI"
+}
+[2024-04-11 15:26:39,204][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 15:26:39,204][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:26:39,205][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "13585597702"
+}
+[2024-04-11 15:26:39,354][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "mobile": "13585597702"
+}
+[2024-04-11 15:26:39,355][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '13585597702' ORDER BY users_verifycode.add_time DESC
+[2024-04-11 15:26:39,391][conftest.py 9][INFO]: sql执行结果：{'code': '6294'}
+[2024-04-11 15:26:39,395][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/code/
+[2024-04-11 15:26:39,395][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:26:39,396][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "mobile": "13585597702"
+}
+[2024-04-11 15:26:39,478][response_util.py 11][INFO]: 接口返回状态码不是2开头，请检查
+[2024-04-11 15:26:39,478][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "mobile": [
+    "\u8ddd\u79bb\u4e0a\u6b21\u53d1\u9001\u672a\u8d85\u8fc71\u5206\u949f"
+  ]
+}
+[2024-04-11 15:26:39,479][mysql_util.py 27][INFO]: 执行sql：SELECT users_verifycode.code FROM users_verifycode WHERE users_verifycode.mobile = '13585597702' ORDER BY users_verifycode.add_time DESC
+[2024-04-11 15:26:39,512][conftest.py 9][INFO]: sql执行结果：{'code': '6294'}
+[2024-04-11 15:26:39,512][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/users/
+[2024-04-11 15:26:39,512][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:26:39,512][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "code": "6294",
+  "password": "123456",
+  "username": "13585597702"
+}
+[2024-04-11 15:26:39,657][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "username": "13585597702",
+  "mobile": "13585597702",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NywidXNlcm5hbWUiOiIxMzU4NTU5NzcwMiIsImV4cCI6MTcxMzQyNTIxMiwiZW1haWwiOm51bGx9.dCwgXGYdZjKx0yT3y0fLI0nu93qIPUkqVJQkRQOUrUU",
+  "name": "13585597702"
+}
+[2024-04-11 15:26:39,657][mysql_util.py 32][INFO]: 执行sql：SELECT users_userprofile.id FROM users_userprofile WHERE users_userprofile.mobile = '13585597702'
+[2024-04-11 15:26:39,691][conftest.py 15][INFO]: sql执行结果：[{'id': 10005947}]
+[2024-04-11 15:26:39,691][mysql_util.py 32][INFO]: 执行sql：DELETE FROM users_userprofile WHERE users_userprofile.mobile = '13585597702'
+[2024-04-11 15:26:39,740][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/login/
+[2024-04-11 15:26:39,740][rest_client.py 41][INFO]: 接口请求的方法>>>POST
+[2024-04-11 15:26:39,741][rest_client.py 45][INFO]: 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+[2024-04-11 15:26:39,895][response_util.py 12][INFO]: 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzQyNTIxMywiZW1haWwiOm51bGx9.HWvYRJlyzfu83S0cXOdOouVOwumeLj87cWi8rvXSYRE"
+}
+[2024-04-11 15:41:39,227][rest_client.py 40][INFO]: 接口请求的地址>>>http://admin.5istudy.online/banners/
+[2024-04-11 15:41:39,227][rest_client.py 41][INFO]: 接口请求的方法>>>GET
+[2024-04-11 15:41:39,325][response_util.py 12][INFO]: 接口返回参数>>>
+[
+  {
+    "id": 1824,
+    "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg",
+    "index": 1,
+    "add_time": "2022-10-27T08:33:00",
+    "goods": 15
+  },
+  {
+    "id": 1821,
+    "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg",
+    "index": 2,
+    "add_time": "2022-08-23T00:34:00",
+    "goods": 82
+  },
+  {
+    "id": 1820,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1822,
+    "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png",
+    "index": 3,
+    "add_time": "2022-09-22T10:53:00",
+    "goods": 83
+  },
+  {
+    "id": 1825,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1826,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 1827,
+    "image": "http://admin.5istudy.online/media/banner/banner1.jpg",
+    "index": 3,
+    "add_time": "2021-11-26T13:22:00",
+    "goods": 4
+  },
+  {
+    "id": 8888,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:39:48",
+    "goods": 10
+  },
+  {
+    "id": 8889,
+    "image": "http://admin.5istudy.online/media/hello",
+    "index": 8,
+    "add_time": "2024-03-16T19:58:29",
+    "goods": 10
+  }
+]

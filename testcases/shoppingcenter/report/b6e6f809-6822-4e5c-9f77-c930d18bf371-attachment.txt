@@ -1,0 +1,9 @@
+INFO     log:rest_client.py:40 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+INFO     log:rest_client.py:41 接口请求的方法>>>POST
+INFO     log:rest_client.py:45 接口请求的json参数>>>
+"nums"
+INFO     log:response_util.py:11 接口返回状态码不是2开头，请检查
+INFO     log:response_util.py:12 接口返回参数>>>
+{
+  "detail": "\u8eab\u4efd\u8ba4\u8bc1\u4fe1\u606f\u672a\u63d0\u4f9b\u3002"
+}

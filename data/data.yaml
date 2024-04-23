@@ -1,0 +1,19 @@
+register:
+  mobile: '13585597702'
+
+login:
+  username: "17621947777"
+  password: "123456"
+
+add_shopcarts:
+  goods: ${random_goods_id()}
+  nums: ${random_num()}
+
+add_shopcarts_existed: #使用17621947777登录
+  goods: ${random_user_goods()}
+  nums: ${random_num()}
+
+add_message:
+  subject: 17621947777--测试留言
+  message: 急急急急急急！！！
+  message_type: 1

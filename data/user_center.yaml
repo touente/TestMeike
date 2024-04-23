@@ -1,0 +1,21 @@
+user_login:
+#  接口login的基本信息
+  - request_info:
+      case_story: 登录接口
+      url: /login/
+      method: POST
+      headers:
+        Content-Type: application/json
+    case_info:
+      - json:
+          username: "17621947777"
+          password: "123456"
+        validate:
+          - contains: [$.token, 'eyJ0eX']
+        case_title: 正常登录
+      - json:
+          username: "17621947888"
+          password: "123456"
+        validate:
+          - eq: [ '$.non_field_errors[0]', '无法使用提供的认证信息登录。' ]
+        case_title: 无法正常登录-用户不存在

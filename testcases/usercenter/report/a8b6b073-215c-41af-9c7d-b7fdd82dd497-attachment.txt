@@ -1,0 +1,13 @@
+INFO     log:rest_client.py:34 接口请求的地址>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:35 接口请求的方法>>>POST
+INFO     log:rest_client.py:39 接口请求的json参数>>>
+{
+  "username": "17621947888",
+  "password": "123456"
+}
+INFO     log:rest_client.py:16 接口返回内容为>>>
+{
+  "non_field_errors": [
+    "无法使用提供的认证信息登录。"
+  ]
+}

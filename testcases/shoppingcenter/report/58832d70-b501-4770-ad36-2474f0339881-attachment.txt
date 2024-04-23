@@ -1,0 +1,35 @@
+INFO     log:rest_client.py:40 接口请求的地址>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:41 接口请求的方法>>>POST
+INFO     log:rest_client.py:45 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+INFO     log:response_util.py:12 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwODcwMiwiZW1haWwiOm51bGx9.AnEkkdfbRo5p-uG3KY-c06w-ny1f1xGQUsQcze3Xw34"
+}
+INFO     log:mysql_util.py:28 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+INFO     log:mysql_util.py:31 sql执行结果：{'id': 10005945}
+INFO     log:mysql_util.py:40 执行sql：select goods_id from trade_shoppingcart where user_id = 10005945
+INFO     log:mysql_util.py:43 sql执行结果：[{'goods_id': 3}, {'goods_id': 9}, {'goods_id': 12}, {'goods_id': 61}, {'goods_id': 71}, {'goods_id': 80}, {'goods_id': 87}]
+INFO     log:mysql_util.py:28 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+INFO     log:mysql_util.py:31 sql执行结果：{'id': 10005945}
+INFO     log:mysql_util.py:28 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 87
+INFO     log:mysql_util.py:31 sql执行结果：{'nums': 3}
+INFO     log:rest_client.py:40 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+INFO     log:rest_client.py:41 接口请求的方法>>>POST
+INFO     log:rest_client.py:45 接口请求的json参数>>>
+{
+  "goods": "87",
+  "nums": "18"
+}
+INFO     log:response_util.py:12 接口返回参数>>>
+{
+  "nums": 21,
+  "goods": 87
+}
+INFO     log:mysql_util.py:28 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+INFO     log:mysql_util.py:31 sql执行结果：{'id': 10005945}
+INFO     log:mysql_util.py:28 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 87
+INFO     log:mysql_util.py:31 sql执行结果：{'nums': 21}

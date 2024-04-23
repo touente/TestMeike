@@ -1,0 +1,34 @@
+order_list:
+  - request_info:
+      case_story: 订单列表接口
+      url: /orders/
+      method: GET
+      headers:
+        Content-Type: application/json
+    case_info:
+      - params:
+          order_id: ${get_extract_value(order_id)}
+        validate:
+          - len: ['$..id', 1]
+          - contains: ['$..signer_name', '江畔独步']
+        case_title: 正常获取订单列表
+        extract_data:
+          order_id: '$.[0].id'
+
+
+order_detail:
+  - request_info:
+      case_story: 订单商品详情
+      url: /orders/${get_extract_value(order_id)}/
+      method: GET
+      headers:
+        Content-Type: application/json
+    case_info:
+      - params:
+          # 本来应该没有参数，这里演示多个参数都自定义
+          order_id: ${get_extract_value(order_id)}
+          order_id2: ${get_extract_value(order_id)}
+          time: ${get_time()}
+        validate:
+          - eq: ['$.pay_status', paying]
+        case_title: 正常获取订单商品详情页

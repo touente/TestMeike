@@ -1,0 +1,33 @@
+INFO     log:rest_client.py:40 接口请求的地址>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:41 接口请求的方法>>>POST
+INFO     log:rest_client.py:45 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+INFO     log:response_util.py:12 接口返回参数>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxMzUwNzAyNywiZW1haWwiOm51bGx9.EJvjpzseDgl90iEtOx_fBWMBhnzmt-KSWEtGO7HvfTU"
+}
+INFO     log:mysql_util.py:40 执行sql：SELECT id FROM goods_goods
+INFO     log:mysql_util.py:43 sql执行结果：[{'id': 100010}, {'id': 11}, {'id': 57}, {'id': 66}, {'id': 85}, {'id': 80}, {'id': 56}, {'id': 58}, {'id': 59}, {'id': 60}, {'id': 61}, {'id': 62}, {'id': 63}, {'id': 64}, {'id': 67}, {'id': 68}, {'id': 69}, {'id': 70}, {'id': 71}, {'id': 2}, {'id': 5}, {'id': 8}, {'id': 12}, {'id': 83}, {'id': 55}, {'id': 13}, {'id': 3}, {'id': 1}, {'id': 4}, {'id': 10}, {'id': 6}, {'id': 9}, {'id': 7}, {'id': 76}, {'id': 26}, {'id': 27}, {'id': 18}, {'id': 21}, {'id': 25}, {'id': 20}, {'id': 23}, {'id': 28}, {'id': 24}, {'id': 17}, {'id': 86}, {'id': 16}, {'id': 19}, {'id': 22}, {'id': 29}, {'id': 15}, {'id': 37}, {'id': 84}, {'id': 87}, {'id': 100000}, {'id': 100001}, {'id': 100002}, {'id': 100003}, {'id': 100004}, {'id': 100005}, {'id': 100006}, {'id': 100007}, {'id': 100008}, {'id': 100009}, {'id': 14}, {'id': 72}, {'id': 73}, {'id': 75}, {'id': 74}, {'id': 79}, {'id': 82}, {'id': 77}, {'id': 78}, {'id': 81}]
+INFO     log:mysql_util.py:28 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+INFO     log:mysql_util.py:31 sql执行结果：{'id': 10005945}
+INFO     log:mysql_util.py:28 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 12
+INFO     log:mysql_util.py:31 sql执行结果：None
+INFO     log:rest_client.py:40 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+INFO     log:rest_client.py:41 接口请求的方法>>>POST
+INFO     log:rest_client.py:45 接口请求的json参数>>>
+{
+  "goods": "12",
+  "nums": "1"
+}
+INFO     log:response_util.py:12 接口返回参数>>>
+{
+  "nums": 1,
+  "goods": 12
+}
+INFO     log:mysql_util.py:28 执行sql：SELECT id FROM users_userprofile WHERE mobile = '17621947777'
+INFO     log:mysql_util.py:31 sql执行结果：{'id': 10005945}
+INFO     log:mysql_util.py:28 执行sql：SELECT nums FROM trade_shoppingcart WHERE user_id = 10005945 AND goods_id = 12
+INFO     log:mysql_util.py:31 sql执行结果：{'nums': 1}

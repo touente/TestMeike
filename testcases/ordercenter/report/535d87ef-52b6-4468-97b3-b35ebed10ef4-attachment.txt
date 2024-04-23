@@ -1,0 +1,44 @@
+INFO     log:rest_client.py:34 接口请求的地址>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:35 接口请求的方法>>>POST
+INFO     log:rest_client.py:39 接口请求的json参数>>>
+{
+  "username": "17621947777",
+  "password": "123456"
+}
+INFO     log:rest_client.py:16 接口返回内容为>>>
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMDAwNTk0NSwidXNlcm5hbWUiOiIxNzYyMTk0Nzc3NyIsImV4cCI6MTcxNDAyNzU2MywiZW1haWwiOm51bGx9.w5DCuxCCSGDyLG34hQ6wtUYAiz2zTlan_R93BvoSQok"
+}
+INFO     log:rest_client.py:34 接口请求的地址>>>http://admin.5istudy.online/orders/
+INFO     log:rest_client.py:35 接口请求的方法>>>GET
+INFO     log:rest_client.py:16 接口返回内容为>>>
+[
+  {
+    "id": 8749,
+    "pay_status": "paying",
+    "order_sn": "202404180922421000594585",
+    "trade_no": null,
+    "pay_time": null,
+    "add_time": "2024-04-18 09:22:42",
+    "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%22202404180922421000594585%22%2C%22out_trade_no%22%3A%22202404180922421000594585%22%2C%22total_amount%22%3A0.01%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2024-04-18+14%3A46%3A04&version=1.0&sign=BSErDdiVodzTUTBL%2FeJDZ84jHp9vWn1mc5S0ArId0fDeKRdCpRp2AMiP5D0HdsXsklfm01GhAqg2FCAWFrmnfjTTk3QXoyqjgcxOTEHorY6r9QpVImlXCcedkQu915Mqc4FAUzlZyUgS0fQ%2F%2BQUCVdaRJk9LOnBTKH53FqQBkuxtO8EnJ3XoMPBBdIJEa3vumo9YeQq0TNoXV6b0ts9WyO6rIsRsDzlODN69RYjH3jLmj4XbRQ6GtdLfEA1tY%2F8sZ5%2FwhaSCAxH%2FIG%2FcZ8gi%2FPiEvKwzDlKmTQKLunh1ONk7RH7%2FHvNCTHGKQgXLYJ33l7CYjdY05%2FVeJm5R%2F0WLzQ%3D%3D",
+    "post_script": "11111测试下个单~~",
+    "order_mount": 0.01,
+    "address": "广东省广州市天河区车陂北街富力万科云启",
+    "signer_name": "江畔独步",
+    "singer_mobile": "17621947856"
+  },
+  {
+    "id": 8750,
+    "pay_status": "paying",
+    "order_sn": "202404180923311000594517",
+    "trade_no": null,
+    "pay_time": null,
+    "add_time": "2024-04-18 09:23:31",
+    "alipay_url": "https://openapi-sandbox.dl.alipaydev.com/gateway.do?app_id=9021000123614494&biz_content=%7B%22subject%22%3A%22202404180923311000594517%22%2C%22out_trade_no%22%3A%22202404180923311000594517%22%2C%22total_amount%22%3A9.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2024-04-18+14%3A46%3A04&version=1.0&sign=T%2F%2Feccf74fN6yDRkhJaOOMRQfG0h7nO1iZE85w7yRHczy1wzg7z7yKNQDvc1RqZkEdVMxFzhqzzdSj4oE2iuFFrbLNMxaAD4YgigimNeEKreKrhu0qMNuPEvlVi%2BhNCnAY84Kk%2By7lc9YfTRnNyKNOxHvLpRrn0CbR19JS6GQ2rfxAQ0f4FFtlW%2Fuqxo53SoOoertOvnCr3RFFuX0DSm9WKl6M2r7uLjHw4zGytOngnLPyzTKQWAcezetAM%2FD8%2B5%2FM5GIYjviJ0Egd3ml%2BBY%2BteebSM%2FASfqkDZb0S4YpdytlrNaD05hCOxQfBEK%2BLykfEykdJx1wsOqLE0xUpRt7w%3D%3D",
+    "post_script": "222222测试再下个单~~~",
+    "order_mount": 9.0,
+    "address": "广东省广州市天河区车陂北街富力万科云启",
+    "signer_name": "江畔独步",
+    "singer_mobile": "17621947856"
+  }
+]

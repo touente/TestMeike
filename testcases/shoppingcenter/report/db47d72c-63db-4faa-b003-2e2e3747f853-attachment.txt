@@ -1,0 +1,2 @@
+INFO     log:mysql_util.py:40 执行sql：select goods_id from trade_shoppingcart where user_id = 17621947777
+INFO     log:mysql_util.py:43 sql执行结果：()

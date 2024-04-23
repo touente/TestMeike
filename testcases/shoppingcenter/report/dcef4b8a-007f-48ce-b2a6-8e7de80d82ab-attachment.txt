@@ -1,0 +1,11 @@
+INFO     log:rest_client.py:40 接口请求的地址>>>http://admin.5istudy.online/login/
+INFO     log:rest_client.py:41 接口请求的方法>>>POST
+INFO     log:rest_client.py:45 接口请求的json参数>>>
+"username"
+INFO     log:response_util.py:11 接口返回状态码不是2开头，请检查
+INFO     log:response_util.py:12 接口返回参数>>>
+{
+  "non_field_errors": [
+    "\u65e0\u6548\u6570\u636e\u3002\u671f\u5f85\u4e3a\u5b57\u5178\u7c7b\u578b\uff0c\u5f97\u5230\u7684\u662f str \u3002"
+  ]
+}

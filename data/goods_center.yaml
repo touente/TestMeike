@@ -1,0 +1,13 @@
+get_banner:
+#  接口login的基本信息
+  - request_info:
+      case_story: banner接口
+      url: /banners/
+      method: GET
+      headers:
+        Content-Type: application/json
+    case_info:
+      - params:
+        validate:
+          - len: ['$..id', 9]
+        case_title: 正常获取banner
