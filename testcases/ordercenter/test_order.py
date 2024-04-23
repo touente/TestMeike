@@ -13,3 +13,5 @@ class TestOrder:
     @pytest.mark.parametrize("data", yaml_util.extract_case('order_center.yaml', 'order_detail'))
     def test_order_detail(self, data, login_token):
         api_service.handle_case(data, login_token)
+
+# 测试一次上传
