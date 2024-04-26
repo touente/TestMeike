@@ -32,7 +32,7 @@ def push_message():
     content = {
         "msgtype": "text",
         "text": {
-            "content": "接口自动化脚本执行结果：\n运行总数" + case_num
+            "content": "接口自动化脚本执行结果：\n运行总数  " + case_num
                        + "\n通过数量：" + passed_num
                        + "\n失败数量：" + failed_num
                        + "\n阻塞数量：" + broken_num
